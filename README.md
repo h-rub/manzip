@@ -57,7 +57,7 @@ Options:
 -o, --output TEXT  Path to te output zip file, by default current directoy
 --help             Show this message and exit.
 
-### Examples:
+### Example:
 
 If the parameter output is empty by default to be the current directory
 
