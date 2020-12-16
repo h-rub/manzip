@@ -1,5 +1,5 @@
 # manzip created by h-rub
-#This program is distributed under the MIT License, you can use and modify if you want
+# This program is distributed under the MIT License, you can use and modify if you want
 
 import os
 import zipfile
@@ -50,9 +50,7 @@ def extract(file, output):
         return print(f"Files extracted succesfully => {path_output}")         
     else:
         path_zip = cwd+path_slash+file
-        print(path_zip)
         path_output = cwd
-        print(path_output)
         zip_file_to_extract = zipfile.ZipFile(path_zip)
         zip_file_to_extract.extractall(path_output)
         zip_file_to_extract.close()
