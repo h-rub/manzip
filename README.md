@@ -1,4 +1,4 @@
-Manzip - Compress and extract easily and fast
+# Manzip - Compress and extract easily and fast
 
 Installation
 
